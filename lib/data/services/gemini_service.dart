@@ -13,8 +13,7 @@ class GeminiService {
       // Define the API endpoint
       // Note: Replace with the actual Gemini API endpoint when available
       final endpoint =
-          'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
-
+          'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
       // Prepare the request payload
       final payload = {
         'contents': [
